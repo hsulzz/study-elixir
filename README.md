@@ -4,4 +4,5 @@
     </a>
 </h1>
 
-- [2024.09.02] 开始阅读Elixir[官方文档](https://hexdocs.pm/elixir/introduction.html)  v1.17.2
+- [2024.09.02] 阅读Elixir[官方文档](https://hexdocs.pm/elixir/introduction.html)  v1.17.2
+- [2024.09.12] 阅读Elixir[标准库文档](https://hexdocs.pm/elixir/Module.html)  v1.17.2
