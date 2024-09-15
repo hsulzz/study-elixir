@@ -1,5 +1,4 @@
 defmodule KV.Registry do
-  alias ElixirSense.Log
   use GenServer
 
   ## Client API
