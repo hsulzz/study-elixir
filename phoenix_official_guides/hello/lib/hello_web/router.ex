@@ -18,7 +18,13 @@ defmodule HelloWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
     resources "/products", ProductController
+  end
+
+  scope "/api", HelloWeb do
+    pipe_through :api
+    resources "/urls", UrlController, except: [:new, :edit]
   end
 
   # Other scopes may use custom stacks.
